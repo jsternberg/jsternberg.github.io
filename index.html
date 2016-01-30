@@ -7,11 +7,11 @@
     <div id="greeting">
       Hello, World!
     </div>
-    <input type="button" id="goodbye">Leave</input>
+    <input type="button" id="goodbye" value="Leave"/>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script type="text/javascript">
-$("goodbye").click(function(e) {
-  $("greeting").html("Goodbye!");
+$("#goodbye").click(function(e) {
+  $("#greeting").html("Goodbye!");
 });
     </script>
   </body>
